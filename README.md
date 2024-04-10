@@ -75,6 +75,48 @@ Some of these tools are well-known to most computer users. For example, people a
 
 Other analytics tools require more advanced skills. For example, the R programming language is designed to provide analysts with direct access to their data, but it requires learning some basic coding skills.
 
+Tabular Data
+Tabular data is data organized into a table, made up of columns and rows. A table represents information about a single topic. Each column represents a uniquely named field within a table, also called a variable, about a single characteristic. The contents of each column contain values for the data element as defined by the column header.
+
+Structured Data Types
+Structured data is tabular in nature and organized into rows and columns. Structured data is what typically comes to mind when looking at a spreadsheet. With clearly defined column headings, spreadsheets are easy to work with and understand. In a spreadsheet, cells are where columns and rows intersect.
+
+Unstructured Data Types
+Unstructured data is any type of data that does not fit neatly into the tabular model. 
+Examples of unstructured data include digital images, audio recordings, video recordings, and open-ended survey responses.
+
+Semi-structured Data Type
+Semi-structured data is data that has structure and that is not tabular. Email is a well-known example of semi-structured data. Every email message has structural components, including recipient, sender, subject, date, and time. However, the body of an email is unstructured text, while attachments could be anything type of file.
+
+# Categories of Data
+
+QUANTITATIVE AND QUALITATIVE DATA
+- Regardless of structure, data is either quantitative or qualitative. Quantitative data consists of numeric values. Data elements whose values come from counting or measuring are quantitative.
+- Qualitative data consists of frequent text values. Data elements whose values describe characteristics, traits, and attitudes are all qualitative.
+
+DISCRETE VS CONTINUOS DATA
+- Numeric data comes in two different forms: discrete and continuous. A helpful way to think about discrete data is that it represents measurements that can't be subdivided. You may intuitively think of discrete data as using whole numbers, but that doesn't have to be the case.
+- Instead of counting, when you measure things like height and weight, you are collecting continuous data. While whole numbers represent discrete data, continuous data typically need a decimal point.
+- Qualitative data is discrete, but quantitative data can be either discrete or continuous data.
+
+CATEGORICAL DATA
+Text data with a known, finite number of categories is categorical.
+
+DIMENSIONAL DATA
+Dimensional data contains groupings of individual attributes about a given subject. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
