@@ -119,7 +119,49 @@ Extensible Markup Language (XML) is a markup language that facilitates structuri
 Hypertext Markup Language
 HyperText Markup Language (HTML) is a markup language for documents designed to be displayed in a web browser. HTML pages serve as the foundation for how people interact with the World Wide Web. Similar to XML, HTML is a tag-based language.
 
+# CHAPTER 3
 
+THE RELATIONAL MODEL
+In 1969, IBM's Edgar F. Codd developed the relational model for database management. The relational model builds on the concept of tabular data. In the relational model, an entity contains data for a single subject. When creating an IT system, you need to consider all the entities required to make your system work. You can think of entities as nouns because they usually correspond to people, places, and things.
+
+ERD
+The entity relationship diagram (ERD) is a visual artifact of the data modeling process. It shows the connection between related entities.
+
+A unary relationship is when an entity has a connection with itself. For example, Figure 3.4 illustrates a unary relationship where a single manager has multiple employees.
+
+A binary relationship connects two entities. Binary relationships are the most common and easy to explore, whereas unary and ternary are comparatively complex and rare.
+
+A ternary relationship connects three entities. For example, you might use a ticket entity to connect a venue, a performing artist, and a price.
+
+RELATIONAL DATABASE
+Relational databases are pieces of software that let you make an operational system out of an ERD. You start with a relational model and create a physical design. Relational entities correspond to database tables, and entity attributes correspond to table columns. 
+
+
+NON-RELTIONAL DATABASE
+A nonrelational database does not have a predefined structure based on tabular data. The result is a highly flexible approach to storing data. However, the data types available in relational databases are absent. As a result, you need to know more about the data itself to interact with it. Data validation happens in code, as opposed to being done in the database. 
+
+Examples of nonrelational databases include key-value, document, column family, and graph.
+
+#DATABSE USE-CASES
+
+ONLINE TRANSACTIONAL PROCESSING 
+OLTP systems handle the transactions we encounter every day. Example transactions include booking a flight reservation, ordering something online, or executing a stock trade. While the number of transactions a system handles on a given day can be very high, individual transactions process small amounts of data. OLTP systems balance the ability to write and read data efficiently.
+
+NORMALIZATION
+Is a way of structuring a database in a way that minimizes duplicating data.
+
+ONLINE ANALYTICAL PROCESSING
+OLAP systems focus on the ability of organizations to analyze data. While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different. OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design.
+
+SCHEMA CONCEPTS
+- A data warehouse is a database that aggregates data from many transactional systems for analytical purposes. Transactional data may come from systems that power the human resources, sales, marketing, and product divisions. A data warehouse facilitates analytics across the entire company.
+
+- A data mart is a subset of a data warehouse. Data warehouses serve the entire organization, whereas data marts focus on the needs of a particular department within the organization. For example, suppose an organization wants to do analytics on their employees to understand retention and career evolution trends. To satisfy that use case, you can create a data mart focusing on the human resources subject area from the data warehouse.
+
+- A data lake stores raw data in its native format instead of conforming to a relational database structure. Using a data lake is more complex than a data warehouse or data mart, as it requires additional knowledge about the raw data to make it analytically useful. Relational databases enforce a structure that encapsulates business rules and business logic, both of which are missing in a data lake.
+
+DIMENSIONALITY
+Dimensionality refers to the number of attributes a table has. The greater the number of attributes, the higher the dimensionality. A dimension table provides additional context around data in fact tables.
 
 
 
