@@ -165,6 +165,26 @@ Dimensionality refers to the number of attributes a table has. The greater the n
 
 # CHAPTER 4
 
+Duplicate Data
+Duplicate data occurs when data representing the same transition is accidentally duplicated within a system.
+
+Redundant Data
+Redundant Data happens when the same data elements exists in multiple places within a system. Frequently data redundancy is a function of intergrating multiple systems.
+
+Missing Values
+Occurs when you expect an attribute to contain data but nothing is there.
+
+Invalid Data
+Are values outside the valid range for a given attribute.
+
+Non-parametic Data
+Nonparametric data is data collected from categorical variables.
+
+Data Outliers
+A data outlier is a value that differs significantly from other observations in a dataset.
+
+Specification Mismatch
+A specification describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values. 
 
 
 
