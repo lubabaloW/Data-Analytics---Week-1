@@ -184,7 +184,217 @@ Data Outliers
 A data outlier is a value that differs significantly from other observations in a dataset.
 
 Specification Mismatch
-A specification describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values. 
+A specification describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values.
+
+Data-type Validation 
+Data type validation ensures that values in a dataset have a consistent data type.
+
+DATA MANIPULATION TECHNIQUES
+Recoding Data
+Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis.
+
+Derived Variables
+A derived variable is a new variable resulting from a calculation on an existing variable.
+
+Data Merge
+A data merge uses a common variable to combine multiple datasets with different structures into a single dataset.
+
+Data Blending
+Data blending combines multiple sources of data into a single dataset at the reporting layer.
+
+Concantenation
+Concatenation is the merging of separate variables into a single variable. 
+
+Data Append
+A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets.
+
+Imputation
+Imputation is a technique for dealing with missing values by replacing them with substitutes.
+
+Reduction
+Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value. 
+
+Circumstances to check for quality
+Data Acquisition
+Data Transformation and Conversion
+Data Manipulation
+Final Product Preparation
+
+DATA QUALITY DIMENSIONS
+Data Accuracy
+Data Completeness
+Data Consistency
+Data Timeliness
+Data Uniqueness
+Data Validity
+
+METHOD TO VALIDATE QUALITY
+Reasonable Expectations
+Data Profiling
+Data Audits
+Sampling
+Cross Validation
+
+# CHAPTER 5
+
+MEASURES OF FREQUENCY
+Count
+Percentage
+Frequency
+
+MEASURES OF CENTRAL TENDENCY
+Mean - The mean, or average, is a measurement of central tendency that computes the arithmetic average for a given set of numeric values.
+Median - dentifies the midpoint value for all observations of a variable.
+Mode - The mode is a variable's most frequently occurring observation. 
+
+MEASURES OF DISPERSION
+Range - s the difference between its maximum and minimum values.
+Distribution - is a function that illustrates probable values for a variable, and the frequency with which they occur. 
+Normal Distribution - is symmetrically dispersed around its mean, which gives it a distinctive bell-like shape.
+Skewed Distribution - has an asymmetrical shape, with a single peak and a long tail on one side. 
+Bimodal Distribution - has two distinct modes, whereas a multimodal distribution has multiple distinct modes.
+Variance - is a measure of dispersion that takes the values for each observation in a dataset and calculates how far away they are from the mean value.
+Standard Deviation - is a statistic that measures dispersion in terms of how far values of a variable are from its mean. 
+
+HYPOTHESIS TESTING
+ A hypothesis test consists of two statements, only one of which can be true. It uses statistical analysis of observable data to determine which of the two statements is most likely to be true.
+
+ Hypothesis Testing with the Z-test
+ Hypothesis testing with the Z-test is appropriate when you have a sample size over 30 and a known population standard deviation, and you are using the normal distribution.
+
+Hypothesis Testing with the T-test
+A t-test is conceptually similar to a Z-test, but uses the t-distribution instead of the standard normal distribution. You interpret the results of a t-test the same way you interpret a Z-test in terms of critical regions, confidence levels, and p-values.
+
+Hypothesis Testing with Chi-Square
+The chi-square test is available when you need to assess the association of two categorical variables. In this case, the null hypothesis asserts that there is no association between the variables, and the alternative hypothesis states that there is an association between them.
+
+Simple Linear Regression
+Simple linear regression is an analysis technique that explores the relationship between an independent variable and a dependent variable. 
+
+Exploratory Data Analysis
+An exploratory data analysis (EDA) uses descriptive statistics to summarize the main characteristics of a dataset, identify outliers, and give you context for further analysis. 
+
+While there are many approaches to conducting an EDA, they typically encompass the following steps:
+Check Data Structure
+Check Data Representation
+Check if Data Is Missing
+Identify Outliers
+Summarize Statistics
+Check Assumptions
+
+# CHAPTER 6
+Programming Languages
+
+R - The R programming language is extremely popular among data analysts because it is focused on creating analytics applications. 
+Python - 
+SQL - The Structured Query Language (SQL) is the language of databases.
+Any time a developer, administrator, or end user interacts with a database, that interaction happens through the use of a SQL command. SQL is divided into two major sublanguages:
+
+The Data Definition Language (DDL) is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+The Data Manipulation Language (DML) is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
+
+There are three DDL commands that you should know:
+
+The CREATE command is used to create a new table within your database or a new database on your server.
+The ALTER command is used to change the structure of a table that you've already created.
+The DROP command deletes an entire table or database from your server.
+
+There are also four DML commands that you should know:
+
+The SELECT command is used to retrieve information from a database. 
+The INSERT command is used to add new records to a database table.
+The UPDATE command is used to modify rows in the database. .
+The DELETE command is used to delete rows from a database table.
+
+STATISTICS PACKAGES
+IBM SPSS
+SPSS is one of the oldest statistical software packages, first released in 1968, but it continues to be used today by many statisticians.
+
+Stata
+Stata is yet another statistical analysis package that dates back to the 1980s and continues to be updated today. It offers essentially the same features as SPSS and SAS and provides users with both a graphical interface and a command-line interface depending on their personal preference. Stata is less widely used than the more popular SAS and SPSS tools.
+
+Minitab
+The final statistical software package covered on the Data+ exam is Minitab
+
+MACHINE LEARNING
+IBM SPASS Modeler
+IBM's SPSS Modeler is one popular tool for building graphical machine learning models. Instead of requiring that users write code, it provides an intuitive interface where analysts can select the tasks that they would like the software to carry out and then connect them in a flowchart-style interface.
+
+RapidMiner
+RapidMiner is another graphical machine learning tool that works in a manner similar to IBM SPSS Modeler. It offers access to hundreds of different algorithms that may be placed in a visually designed machine-learning workflow. RapidMiner also offers prebuilt analytic templates for common business scenarios. 
+
+ANALYTICS SUITES
+
+IBM Cognos
+IBM Cognos is an example of one of these integrated analytics suites. It uses a web-based platform to offer analysts within an organization access to their data and is backed by IBM's Watson artificial intelligence capability. The major components of Cognos include the following:
+
+-Cognos Connection is a web-based portal that offers access to other elements of the Cognos suite.
+-Query Studio provides access to data querying and basic reporting tools.
+-Report Studio offers advanced report design tools for complex reporting needs.
+-Analysis Studio enables advanced modeling and analytics on large datasets.
+-Event Studio provides real-time data monitoring and alerting, allowing business leaders to be immediately notified when certain events take place and/or provide automated responses to those events.
+-Metric Studio offers the ability to create scorecards for business leaders to quickly analyze key metrics from across the organization.
+-Cognos Viewer allows stakeholders to easily interact with data and analyses prepared using Cognos.
+
+Microsoft Power BI
+ower BI is Microsoft's analytics suite built on the company's popular SQL Server database platform. Power BI is popular among organizations that make widespread use of other Microsoft software because of its easy integration with those packages and cost-effective bundling within an organization's Microsoft enterprise license agreement.
+
+The major components of Power BI include the following:
+
+-Power BI Desktop is a Windows application for data analysts, allowing them to interact with data and publish reports for others.
+-The Power BI service is Microsoft's software-as-a-service (SaaS) offering that hosts Power BI capabilities in the cloud for customers to access.
+-Mobile apps for Power BI provide users of iOS, Android, and Windows devices with access to Power BI capabilities.
+-Power BI Report Builder allows developers to create paginated reports that are designed for printing, email, and other distribution methods.
+-Power BI Report Server offers organizations the ability to host their own Power BI environment on internal servers for stakeholders to access.
+
+Microstrategy
+MicroStrategy is an analytics suite that is less well-known than similar tools from IBM and Microsoft, but it does have a well-established user base.
+
+Domo
+Domo is a software-as-a-service (SaaS) analytics platform that allows businesses to ingest their data and apply a variety of analytic and modeling capabilities. It is not a very widely used tool.
+
+Datorama
+Salesforce Datorama is an analytics tool that focuses on a specific component of an organization's business: sales and marketing. It's not a general-purpose analytics tool but is instead focused on applying machine learning, visualization, and other analytics techniques to the sales and marketing process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
