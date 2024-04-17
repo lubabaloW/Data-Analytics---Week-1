@@ -356,12 +356,22 @@ Domo is a software-as-a-service (SaaS) analytics platform that allows businesses
 Datorama
 Salesforce Datorama is an analytics tool that focuses on a specific component of an organization's business: sales and marketing. It's not a general-purpose analytics tool but is instead focused on applying machine learning, visualization, and other analytics techniques to the sales and marketing process.
 
+AWS QuickSight
+AWS QuickSight is a dashboarding tool available as part of the Amazon Web Services cloud offering. This tool's power comes from the fact that it is available on a pay-as-you-go basis and its integration with the powerful data storage, data warehousing, machine learning, and artificial intelligence capabilities offered by the Amazon cloud.
 
+Tableau
+Tableau is arguably the most popular data visualization tool available in the market today. The focus of this tool is on the easy ingestion of data from a wide variety of sources and powerful visualization capabilities that allow analysts and business leaders to quickly identify trends in their data and drill down into specific details.
 
+Qlik
+Qlik is another popular SaaS analytics platform, offering access to cloud-based analytics capabilities. The major products offered by Qlik include the following:
 
+QlikView is the company's original analytics platform that focuses on providing rapid insights.
+Qlik Sense is a more advanced platform providing more sophisticated analytics capabilities (at a higher cost, of course!).
 
+BusinessObjects
+BusinessObjects is an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations. 
 
-
+# CHAPTER 7
 
 
 
