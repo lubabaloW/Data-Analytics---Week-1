@@ -374,6 +374,47 @@ BusinessObjects is an enterprise reporting tool from SAP that is designed to pro
 # CHAPTER 7
 
 
+# CHAPTER 8
+DATA GOVERNANCE
+
+
+Data governance involves creating a comprehensive framework of policies, procedures, and standards to effectively manage an organization's data throughout its lifecycle, ensuring security, quality, and compliance.
+Data governance requires multiple individuals to fulfill various roles, with data stewardship being a crucial concept.
+
+-Data stewardship involves developing policies and procedures for maintaining data quality, security, privacy, and regulatory compliance within an organization.
+
+Data Use Agreements
+A data use agreement (DUA) is a contractual document for transferring private data between organizations.
+
+Security Requirements
+encryption is the process of encoding data with a key so that only authorized parties can read it.
+
+Payment Card Information
+The Payment Card Industry (PCI) is a non-governmental body that governs card-based financial payments.
+
+Use Requirements
+Use requirements specify how to collect, process, use, store, retain, and remove data.
+
+Master data management (MDM)
+is a data governance discipline that uses processes, tools, and technologies to ensure that data assets across an organization have a single source of truth.
+
+Throughout the duration of the course, we have delved deep into the realm of data analysis, exploring various techniques, tools, and methodologies to extract meaningful insights from raw data.
+
+One of the key takeaways from this course is the understanding that data is not merely numbers and statistics but a powerful resource that drives informed decision-making across diverse industries and sectors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
